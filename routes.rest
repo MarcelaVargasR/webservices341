@@ -26,10 +26,11 @@ PUT https://localhost:3000/contacts/682153c25c5181280a010152 HTTP/1.1
 Content-Type: application/json
 
 {
-    "contactName": "test1",
-    "name":"test1",
-    "email":"test1@example.com",
-    "ipaddress":"94.121.168.53"
+    "firstName": "Lucy",
+    "lastName": "Willton",
+    "email": "swillton@test.com",
+    "favoriteColor": "red",
+    "birthday": "06/15/2006"
 }
 
 ## delete Contact
